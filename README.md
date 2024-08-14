@@ -1,6 +1,6 @@
 # Simple Students Manager
 
-## A Simple Website Built with Laravel To Create Read Update and Delete Students From The Database.
+## A Simple Website Built with Laravel To:\ Create Read Update and Delete Students From The Database.
 
 ### Dependencies:
 
