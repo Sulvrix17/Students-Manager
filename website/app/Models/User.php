@@ -44,4 +44,8 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+    public function hasRole($role): bool
+    {
+        return Role::where('name', $role)->count() != 0;
+    }
 }
